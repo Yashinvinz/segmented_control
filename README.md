@@ -21,25 +21,26 @@ Get the index of the selected value
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
 ## Usage
 
+```
+
 body: Center(
-child: SegmentedControl(
-segmentCount: 3,
-borderRadius: 30,
-borderColor: Colors.blueAccent,
-segmentColor: Colors.lightBlue,
-selectedSegmentColor: Colors.blue,
-textColor: Colors.black38,
-selectedTextColor: Colors.white,
-segmentText: ['One', 'Two', 'Three'],
-onSelected: (val) {
-print('value is $val');
-}),
+    child: SegmentedControl(
+        segmentCount: 3,
+        borderRadius: 30,
+        borderColor: Colors.blueAccent,
+        segmentColor: Colors.white,
+        selectedSegmentColor: Colors.blue,
+        textColor: Colors.blue,
+        selectedTextColor: Colors.white,
+        segmentText: const ['One', 'Two', 'Three'],
+        onSelected: (val) {
+            print('value is $val');
+    }),
 ));
+
+```
 
 ## Additional information
 
