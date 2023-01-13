@@ -6,8 +6,6 @@ Change border radius
 Change colors of segment, text and borders
 Get the index of the selected value
 
-## Getting started
-
 ## Usage
 
 ```
@@ -31,4 +29,8 @@ body: Center(
 
 ## Additional information
 
+For the code repository:
 https://github.com/Yashinvinz/segmented_control
+
+To report issues:
+https://github.com/Yashinvinz/segmented_control/issues
