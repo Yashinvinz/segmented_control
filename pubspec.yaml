@@ -1,6 +1,6 @@
 name: segmented_control
-description: Present your list of items as customizable segments.
-version: 1.0.0
+description: Use the segmented control to present your list of data into selectable segments that are also customizable.
+version: 1.0.1
 homepage: https://github.com/Yashinvinz/segmented_control
 
 environment:
